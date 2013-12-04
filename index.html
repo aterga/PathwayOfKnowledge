@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang = "ru">
+	<head>
+		<link type = "text/css" href = "main.css" rel = "stylesheet">
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+    	<script type="text/javascript" src="http://dracula.ameisenbar.de/js/raphael-min.js"></script>
+    	<script type="text/javascript" src="http://dracula.ameisenbar.de/js/graffle.js"></script>
+    	<script type="text/javascript" src="http://dracula.ameisenbar.de/js/graph.js"></script>
+    	<script src="wikipedia.js"></script>
+		<script type="text/javascript">
+		
+		</script>
+</header>
+
+<body>
+	<div class = "env">
+		<div class = "inner">
+		<div class = "title">
+			<span class = "name_1">Pathway to </span><span class = "name_2">Knowledge</span>
+		</div>
+		<div class = "main">
+			<div id="canvas"></div>
+			<div class = "seeker">
+				<div class = "search_input_env">
+					<input id = "word" class = "search_input" type = "text"></input>
+				</div>
+				<div class = "search_button_env">
+					<button onclick='findAllTitles(document.getElementById("word").value);' class = "search_button">Find</button>
+				</div>
+			</div>
+			<div class = "seeker_2">
+				<div id = "confirm_field">
+					<select id = "list_confirm" class = "search_input"></select>
+					<button class = "search_button" onclick="buildGraph();">confirm</button>
+				</div>
+			</div>
+			<div id = "articles_list" class = "seeker_3"></div>
+		</div>
+		</div>
+	</div>
+</body>
+</html>

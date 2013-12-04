@@ -1,0 +1,107 @@
+body {
+	font-size: 14px;
+}
+
+.env {
+	text-align: center;
+}
+
+.inner {
+	margin-top: 20px;
+	display: inline-block;
+	width: 800px;
+}
+
+.title .main {
+	display: block;
+    width:300px;
+}
+
+.title {
+	margin: 0px 0px 10px 0px;
+}
+
+.name_1 {
+	font-family: calibri;
+    font-size: 56px;
+    color: rgb(99, 99, 99);
+}
+
+.name_2 {
+	font-family: calibri;
+    font-size: 56px;
+    color: rgb(146, 157, 59);
+}
+
+.seeker {
+	display: block;
+	margin-bottom: 10px;
+}
+
+#canvas {
+	margin-bottom: 20px;
+}
+
+.seeker_2 {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.seeker_3 {
+	display: block;
+    width:400px;
+	margin-bottom: 10px;
+}
+
+.search_input_env {
+	display: inline-block;
+	padding: 0px;
+	margin: 0px 5px 0px 0px;
+}
+
+.search_input {
+	margin: 0px;
+	width: 300px;
+	padding: 5px 5px 6px 5px;
+	font-size: 14px;
+	display: inline-block;
+}
+
+.search_button_env {
+	margin: 0px 5px 0px 0px;
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+}
+
+.search_button {
+	margin: 0px;
+	background: #fff;
+	border: 2px solid rgb(146, 157, 59);
+    display: inline-block;
+	padding: 5px 5px 6px 5px;
+	font-size: 14px;
+	color: rgb(99, 99, 99);
+	display: inline-block;
+}
+
+.article_item {
+    margin-bottom: 10px;
+    text-align: left;
+    display: block;
+    padding-bottom:10px;
+    box-shadow:0 0 10px rgba(100,100,100,0.5);
+    padding:20px;
+}
+
+#confirm_field {
+	display: none;
+}
+#articles_list
+{
+    width:330px;
+    margin-left: 235px;
+}
+.results {
+	display: block;
+}
